@@ -1,0 +1,141 @@
+<html lang="zh-CN">
+    <head>
+        <%@ page contentType="text/html;charset=UTF-8" %>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ??3?meta??*??*?????????????*??*????? -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Myblog</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom styles for this template -->
+        <link href="jumbotron.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="padbody">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand hidden-sm" href="index.jsp" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', '首页'])">首页</a>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav">
+                                <li class="hidden-sm hidden-md"><a href="artmenu.jsp"  target="_blank" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', '文章'])">文章</a></li>
+                                <li><a href="picmenu.jsp" target="_blank" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', '相册'])">相册</a></li>
+                                <li><a href="musmenu.jsp" target="_blank" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', '音乐'])">音乐</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right hidden-sm">
+                                <li><a href="about.jsp" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', 'about'])">关于</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main jumbotron for a primary marketing message or call to action -->
+
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 style="text-align:center"><span style="color:#3366CC"><span style="font-size:64px">Myblog</span></span></h1>
+
+                    <p style="text-align:center">感谢阿淋帮忙居中！永远爱她 比心qwq</p>
+                    <p style="text-align:center" style="color:#ffffff"><a class="btn btn-primary btn-lg" href="about.jsp" role="button">关于我 &raquo;</a></p>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>文章一</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？ </p>
+                        <p><a class="btn btn-default" href="article1.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>文章二</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？可是感觉好羞耻啊是怎么回事orz</p>
+                        <p><a class="btn btn-default" href="article2.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>文章三</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？可是感觉好羞耻啊是怎么回事orz算了不管了先贴上来再说吧嘿呀orz</p>
+                        <p><a class="btn btn-default" href="article3.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                </div>
+
+
+                <hr>
+
+
+            </div> <!-- /container -->
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>相册一</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？ </p>
+                        <p><a class="btn btn-default" href="pic1.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>相册二</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？可是感觉好羞耻啊是怎么回事orz</p>
+                        <p><a class="btn btn-default" href="pic2.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>音乐一</h2>
+                        <p>不知道该写啥要不把以前的征文贴上来？？？可是感觉好羞耻啊是怎么回事orz算了不管了先贴上来再说吧嘿呀orz</p>
+                        <p><a class="btn btn-default" href="mus1.jsp" role="button" target="_blank">查看全文 &raquo;</a></p>
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <footer>
+                    <p>&copy; 2016 Company, Inc.</p>
+                </footer>
+            </div> <!-- /container -->
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        </div>
+    </body>
+</html>
